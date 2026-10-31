@@ -11,7 +11,7 @@ HOW TO ANSWER:
 PORTFOLIO INFO:
 ABOUT: Mohit Agarwal, B.Tech Computer Science Engineering student at JECRC University, Jaipur, Rajasthan (graduating 2029). Full-stack developer. Founder of Blood.net, an emergency healthcare coordination platform for India, launching first in Rajasthan.
 SKILLS: HTML, CSS, JavaScript, Python, React, Tailwind CSS, Git and GitHub, Vercel deployment, REST APIs, Cursor AI.
-LINKS: GitHub https://github.com/UTRINO-Mohit | LinkedIn https://www.linkedin.com/in/utkarsh-bhaskar-a89678371 | Portfolio https://utrino-connect.vercel.app
+LINKS: GitHub https://github.com/KAZAMA-SINCHAN  | Portfolio: https://portfolio-new-lake-theta.vercel.app/
 PROJECTS:
 1. Python Programs Collection: factorial, Fibonacci and structure-to-dictionary conversion programs, plus an updated README.
 2. Messy Python Code Improvement: a messy script cleaned up with AI help (better names, structure, comments).
