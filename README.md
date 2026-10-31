@@ -1,4 +1,4 @@
-# Utkarsh Bhaskar | Personal Portfolio
+# Mohit Agarwal | Personal Portfolio
 
 Responsive portfolio with project search, light/dark mode and an API-powered chatbot.
 
