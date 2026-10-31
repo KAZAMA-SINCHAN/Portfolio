@@ -1,12 +1,12 @@
 // ===== Project data (edit repo/live links to match your real GitHub repos) =====
+const GH = "https://github.com/KAZAMA-SINCHAN/";
 const projects = [
-  {title:"Python Programs Collection",desc:"Factorial, Fibonacci and structure-to-dictionary conversion programs, with an updated README.",tech:["Python","Git","GitHub"],repo:"",live:""},
-  {title:"Messy Python Code Improvement",desc:"A messy Python script cleaned up and improved with AI assistance: clearer names, structure and comments.",tech:["Python","Cursor AI","Refactoring"],repo:"",live:""},
-  {title:"Bug Fixing Using Cursor AI",desc:"A buggy program found, explained and corrected using Cursor AI.",tech:["Python","Cursor AI","Debugging"],repo:"",live:""},
-  {title:"Interactive Quiz Application",desc:"A browser quiz app with questions, answer checking and a final score.",tech:["HTML","CSS","JavaScript","Quiz"],repo:"",live:"https://utkarsh-quiz-demo.vercel.app/"},
-  {title:"Book Reading List Application",desc:"Add books to a reading list and track what you have read. The README includes the deployed link.",tech:["HTML","CSS","JavaScript","Vercel","Book"],repo:"",live:"https://utkarsh-reading-list.vercel.app/"}
+  {title:"Python Programs Collection",desc:"Factorial, Fibonacci and structure-to-dictionary conversion programs, with an updated README.",tech:["Python","Git","GitHub"],repo:GH+"Python-basic-25bcon1893",live:""},
+  {title:"Messy Python Code Improvement",desc:"A messy Python script cleaned up and improved with AI assistance: clearer names, structure and comments.",tech:["Python","Cursor AI","Refactoring"],repo:GH+"messy-python-improvement",live:""},
+  {title:"Bug Fixing Using Cursor AI",desc:"A buggy program found, explained and corrected using Cursor AI.",tech:["Python","Cursor AI","Debugging"],repo:GH+"bug-fixing-cursor",live:""},
+  {title:"Interactive Quiz Application",desc:"A browser quiz app with questions, answer checking and a final score.",tech:["HTML","CSS","JavaScript","Quiz"],repo:GH+"Interactive-Quiz",live:"https://vercel.com/kazam2/quiz"},
+  {title:"Book Reading List Application",desc:"Add books to a reading list and track what you have read. The README includes the deployed link.",tech:["HTML","CSS","JavaScript","Vercel","Book"],repo:GH+"Book-Reading-List-Application",live:"https://vercel.com/kazam2/book"}
 ];
-
 const $ = s => document.querySelector(s);
 const grid = $("#grid"), search = $("#search");
 
