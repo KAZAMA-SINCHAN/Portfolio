@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Utkarsh Bhaskar | Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Utkarsh Bhaskar, B.Tech CSE student at JECRC University and founder of Blood.net.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#home" class="brand">UB</a>
+  <nav id="menu" aria-label="Main">
+    <a href="#about">About Me</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a><a href="#chatbot">AI Chatbot</a>
+  </nav>
+  <button id="themeToggle" class="icon-btn" aria-label="Switch to dark mode" title="Switch to dark mode">
+    <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
+  </button>
+  <button id="menuBtn" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">Menu</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <svg class="pulse" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 100 H380 L410 100 L430 40 L460 170 L490 100 H700 L730 100 L750 60 L775 140 L800 100 H1200"/>
+  </svg>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Jaipur, Rajasthan</p>
+      <h1>Utkarsh Bhaskar</h1>
+      <p class="lead">I'm a full-stack developer and B.Tech Computer Science student at JECRC University. I'm building Blood.net, a platform that helps people find emergency healthcare faster.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="#chatbot">Ask my AI chatbot</a>
+      </div>
+    </div>
+    <div class="photo"><img src="assets/avatar-me.png" alt="Portrait of Utkarsh Bhaskar" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'UB'}))"></div>
+  </div>
+</section>
+
+<section id="about" class="wrap block">
+  <h2>About me</h2>
+  <div class="cols">
+    <p>I'm Utkarsh Bhaskar, a first-generation builder studying Computer Science Engineering at JECRC University, Jaipur (graduating 2029). I enjoy taking an idea from a rough sketch to a deployed product.</p>
+    <p>My main project is <strong>Blood.net</strong>, an emergency healthcare coordination platform for India, starting with a launch in Rajasthan. Alongside it I build web apps, practise Python, and use AI tools like Cursor to write and debug code faster.</p>
+  </div>
+  <dl class="facts">
+    <div><dt>Education</dt><dd>B.Tech CSE, JECRC University</dd></div>
+    <div><dt>Based in</dt><dd>Jaipur, Rajasthan</dd></div>
+    <div><dt>Focus</dt><dd>Full-stack web development</dd></div>
+  </dl>
+</section>
+
+<section id="skills" class="wrap block">
+  <h2>Skills</h2>
+  <ul class="chips">
+    <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>React</li><li>Tailwind CSS</li><li>Git &amp; GitHub</li><li>Vercel deployment</li><li>REST APIs</li><li>Cursor AI</li>
+  </ul>
+</section>
+
+<section id="projects" class="wrap block">
+  <h2>My projects</h2>
+  <div class="tools">
+    <label class="sr" for="search">Search projects</label>
+    <input id="search" type="search" placeholder="Search by name or technology, e.g. Python, Quiz, Book" autocomplete="off">
+    <span id="count" aria-live="polite"></span>
+  </div>
+  <div id="grid" class="grid"></div>
+  <p id="empty" class="empty" hidden>No projects match that search. Try "Python", "Quiz" or "Book".</p>
+</section>
+
+<section id="contact" class="wrap block">
+  <div class="contact-heading">
+    <div>
+      <p class="kicker">Let's connect</p>
+      <h2>Contact</h2>
+      <p class="contact-intro">Have a question or want to work together? Send me a message or find me online.</p>
+    </div>
+    <a class="contact-cta" href="mailto:utrino161221@gmail.com" id="emailLink">
+      Send an email
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+    </a>
+  </div>
+  <ul class="contact-grid">
+    <li><a class="contact-link" href="mailto:utrino161221@gmail.com"><span class="contact-label">Email</span><span class="contact-value">utrino161221@gmail.com</span></a></li>
+    <li><a class="contact-link" href="https://github.com/UTRINO-UTKARSH" target="_blank" rel="noopener"><span class="contact-label">GitHub</span><span class="contact-value">github.com/UTRINO-UTKARSH</span></a></li>
+    <li><a class="contact-link" href="https://www.linkedin.com/in/utkarsh-bhaskar-a89678371" target="_blank" rel="noopener"><span class="contact-label">LinkedIn</span><span class="contact-value">linkedin.com/in/utkarsh-bhaskar-a89678371</span></a></li>
+    <li><a class="contact-link" href="https://utrino-connect.vercel.app" target="_blank" rel="noopener"><span class="contact-label">Portfolio</span><span class="contact-value">utrino-connect.vercel.app</span></a></li>
+  </ul>
+</section>
+
+<section id="chatbot" class="wrap block">
+  <h2>Ask my AI chatbot</h2>
+  <p class="sub">It answers questions about my skills, projects and background.</p>
+  <div class="chat">
+    <div id="log" class="log" role="log" aria-live="polite">
+      <div class="msg bot">Hi, I'm Utkarsh's portfolio assistant. Ask me who he is, what he has built, or how a project works.</div>
+    </div>
+    <div class="suggest" id="suggest">
+      <button type="button">Who are you?</button><button type="button">What are your skills?</button><button type="button">What projects have you completed?</button><button type="button">What was corrected in the buggy code project?</button>
+    </div>
+    <div class="chat-input">
+      <input id="q" type="text" placeholder="Type your question" aria-label="Your question" maxlength="500">
+      <button id="send" class="btn primary" type="button">Send</button>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot">© <span id="yr"></span> Utkarsh Bhaskar</footer>
+<script src="script.js"></script>
+</body>
+</html>
